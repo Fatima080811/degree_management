@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+    tools:context=".clearance">>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="576dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/footer" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="466dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:srcCompat="@drawable/fot" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginBottom="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:context=".MainActivity">
+
+
+            <TextView
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="74dp"
+                android:layout_marginLeft="74dp"
+                android:layout_marginTop="97dp"
+                android:layout_marginEnd="73dp"
+                android:layout_marginRight="73dp"
+                android:text=" CLEARANCE FORM "
+                android:textColor="@color/white"
+                android:textSize="22dp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#E92C0C"
+                    android:textSize="12sp"
+                    tools:ignore="RtlHardcoded" />
+
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Name"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp"
+                    tools:ignore="HardcodedText"
+                    tools:targetApi="lollipop" />
+
+                <EditText
+                    android:id="@+id/edt_roll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Roll Number"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp" />
+
+
+                <EditText
+                    android:id="@+id/edt_mail"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Email"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/edt_address"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Adress"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp"
+
+                    />
+
+                <EditText
+                    android:id="@+id/edt_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Deparment"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/edt_cnmb"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Contact Number"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/edt_cgpa"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="CGPA"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/edt_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/edtdesign"
+                    android:backgroundTint="@color/purple_200"
+                    android:hint="Passing Year"
+                    android:textColorHint="@color/white"
+                    android:textSize="12sp" />
+
+                <ImageButton
+                    android:id="@+id/bt22"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/btndesign"
+                    android:src="@drawable/add"
+                    android:text="Register"
+                    android:textAllCaps="false"
+                    tools:ignore="ContentDescription,HardcodedText,RtlHardcoded"
+                    tools:targetApi="lollipop" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="FILL OUT THE FORM COMPLETELY? "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    tools:ignore="HardcodedText,SpUsage" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
